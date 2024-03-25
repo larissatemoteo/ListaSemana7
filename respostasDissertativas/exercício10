@@ -2,10 +2,8 @@ Função MultiplicarMatrizes(matriz1, matriz2):
     Se tamanho(matriz1[0]) != tamanho(matriz2) então:
         Retornar "Impossível multiplicar as matrizes. O número de colunas da matriz1 deve ser igual ao número de linhas da matriz2."
     
-    // Inicializar a matriz de resultado com zeros
     resultado = nova matriz com tamanho (número de linhas de matriz1 x número de colunas de matriz2)
     
-    // Multiplicar as matrizes
     Para cada linha i da matriz1 faça:
         Para cada coluna j da matriz2 faça:
             Para k de 0 até tamanho(matriz1[0]) faça:
