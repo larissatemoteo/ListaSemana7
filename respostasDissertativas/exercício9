@@ -1,0 +1,20 @@
+Função desempenhoCorrida(velocidadeInicial, velocidadeMaxima, distancia, aceleracao, tempoMaximo):
+    tempo = 0
+    velocidade = velocidadeInicial
+    
+    Enquanto verdadeiro:
+        tempo = tempo + 1
+        
+        velocidade = velocidadeInicial + aceleracao * tempo
+        
+        Se velocidade > velocidadeMaxima então:
+            velocidade = velocidadeMaxima
+            
+        distanciaPercorrida = velocidadeInicial * tempo + (aceleracao * tempo^2) / 2
+        
+    
+        Se distanciaPercorrida >= distancia então:
+            Retornar tempo
+        
+        Se tempo >= tempoMaximo então:
+            Retornar "Tempo máximo excedido" 

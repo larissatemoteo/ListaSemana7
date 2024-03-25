@@ -1,0 +1,9 @@
+ler idade
+
+se idade < 16 então
+    escrever "Você ainda não pode votar."
+senão se idade está entre 16 e 18 então
+    escrever "Seu voto é facultativo."
+senão
+    escrever "Seu voto é obrigatório."
+fim se
